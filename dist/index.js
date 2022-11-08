@@ -27,7 +27,7 @@ function createNode(wiki) {
 
 function ajaxPage(page) {
     $.ajax({
-        url: "http://localhost:8888/es/query/agg",
+        url: "http://localhost:8808/es/query/agg",
         type: "GET",
         data: {
             param: $('#search-input').val(),
