@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElasticSearch搜索引擎</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="static/jquery.sPage.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <form class="m-auto">
+            <div class="input-group mb-3 mt-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">搜索词</span>
+                </div>
+                <input id="search-input" type="text" class="form-control" placeholder="关键词">
+                <div class="input-group-append">
+                    <button type="button" class="input-group-text btn btn-primary" id="search-btn">搜索</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="result-content">
+        <div class="container-fluid">
+            <div class="results" id="results"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="m-auto">
+            <div id="pNum" class="num"></div>
+            <div id="myPage" class="demo"></div>
+        </div>
+    </div>
+    <div class="row">&nbsp;</div>
+    <div class="row">&nbsp;</div>
+    <div class="row">&nbsp;</div>
+</div>
+<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="static/jquery.sPage.min.js"></script>
+<script src="dist/index.js"></script>
+</body>
+</html>

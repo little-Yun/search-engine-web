@@ -1,0 +1,42 @@
+input:focus, button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+input {
+    border-radius: 0;
+}
+
+body {
+    font-family: 黑体;
+}
+
+.container-fluid {
+    margin-top: 20px;
+}
+
+.input-group {
+    width: 600px;
+}
+
+.display-none {
+    display: none;
+}
+
+.highlight{
+    color: red;
+}
+
+.item{
+    display: block;
+    margin: 20px;
+}
+
+.item-url{
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.item-content{
+    font-size: 16px;
+}
